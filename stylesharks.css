@@ -1,0 +1,150 @@
+.header {
+    border: solid 2px;
+    border-radius: 5px;
+    height: 70px;
+    width: unset;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+#tibu {
+    width: 80px;
+    object-fit: contain;
+    }
+.containe {
+    display: flex;
+    flex-direction: row;
+}
+.cont {
+    background-color: rgb(190, 223, 207);
+    border: solid transparent 1px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+}
+.nombre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+}
+.def{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    display: flex;
+}
+#burones {
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 250px;
+}
+        #tiburonblanco {
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+        #def{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+        #tiburonb {
+    width: 300px;
+    object-fit: contain;
+    border-radius: 10px; 
+}
+        #carac {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+        #carac2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    margin-right: 25px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+.tiburonzorro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px
+}
+.zorroimg {
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 250px;
+}
+#colilargaimg {
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.ballenaimg {
+    border-radius: 5px;
+    margin-left: 5px;
+    width:300px;
+}
+.peregrinoimg {
+    border-radius: 5px;
+    margin-left: 5px;
+    width:300px;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgb(2, 2, 44);
+    border: solid transparent 1px;
+    font-size: larger;
+    color: white;
+    width: 300px;
+    padding-left: 50px;
+    transform: translateY(-11px);
+    border-radius: 5px;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+.tiburone a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.blanco {
+    background-image: url(https://estaticos-cdn.prensaiberica.es/clip/2e6ad5f6-bd06-43d2-b7c6-0a481d4f7bbd_media-libre-aspect-ratio_default_0.jpg);
+}
+.zorro {
+    background-image: url(https://www.tiburoneswiki.com/Imagenes/tiburones-zorro.jpg)
+}
+.pintarroja {
+    background-image: url(https://invdes.com.mx/wp-content/uploads/2023/03/20-03-23-caminar.jpg);
+}
+.ballena {
+    background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/whale-shark-swarm-01.webp?w=760&h=505);
+}
+.peregrino {
+    background-image: url(https://biogeodb.stri.si.edu/sftep/resources/img/images/species/46_890.jpg);
+    margin-bottom: 30px;
+}
